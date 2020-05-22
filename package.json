@@ -1,0 +1,22 @@
+{
+  "name": "ticker_app",
+  "version": "1.0.0",
+  "description": "Trying to make a simple stock ticker app to get a better handle on API responses",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dscrane/ticker_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dscrane/ticker_app/issues"
+  },
+  "homepage": "https://github.com/dscrane/ticker_app#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="display">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li id="home" class="nav__item nav__item-link">Home</li>
+            <li
+              id="byIBU"
+              class="nav__item nav__item-drop"
+              onclick="fetchBeer(byIBUQuery)"
+            >
+              Beer By IBU
+            </li>
+            <li
+              id="byABV"
+              class="nav__item nav__item-drop"
+              onclick="fetchBeer(byABVQuery)"
+            >
+              Beer By ABV
+            </li>
+            <li id="contact" class="nav__item nav__item-link">Contact</li>
+            <li class="nav__item">
+              <button class="nav__cta nav__cta_sign-up">Sign Up</button>
+            </li>
+            <li class="nav__item">
+              <button class="nav__cta nav__cta_log-in">Log In</button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content"></div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
